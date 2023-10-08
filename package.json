@@ -1,0 +1,28 @@
+{
+  "name": "y2j",
+  "version": "0.0.1",
+  "description": "CLI for converting json to yaml and yaml to json",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "cli": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "json",
+    "yaml",
+    "transform",
+    "convert"
+  ],
+  "author": "Ihor K.",
+  "license": "ISC",
+  "dependencies": {
+    "colorette": "^2.0.20",
+    "commander": "^11.0.0",
+    "yaml": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
