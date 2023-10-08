@@ -5,7 +5,9 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "cli": "ts-node src/index.ts"
+    "cli": "ts-node src/index.ts",
+    "prettier": "npx prettier --write \"**/*.{ts,js,json}\"",
+    "prettier:check": "npx prettier --check \"**/*.{ts,js,json}\""
   },
   "keywords": [
     "json",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.8.3",
+    "prettier": "3.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
