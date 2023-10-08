@@ -20,7 +20,7 @@ npm install -g y2j-cli
 To convert a JSON file to YAML, use the `toYaml` command. You can also specify an output file using the `--output` option:
 
 ```bash
-y2j toJson input.json --output output.yaml
+y2j to-json input.json --output output.yaml
 ```
 
 - `input.json`: The input JSON file to convert.
@@ -31,7 +31,7 @@ y2j toJson input.json --output output.yaml
 To convert a YAML file to JSON, use the `toJson` command. You can also specify an output file using the `--output` option:
 
 ```bash
-y2j toYaml input.yaml --output output.json
+y2j to-yaml input.yaml --output output.json
 ```
 
 - `input.yaml`: The input YAML file to convert.
@@ -42,7 +42,7 @@ y2j toYaml input.yaml --output output.json
 ### Example 1: Convert JSON to YAML
 
 ```bash
-y2j toJson data.json --output data.yaml
+y2j to-json data.json --output data.yaml
 ```
 
 This command will convert the `data.json` file to YAML and save it as `data.yaml`.
@@ -50,7 +50,7 @@ This command will convert the `data.json` file to YAML and save it as `data.yaml
 ## Example 2: Convert YAML to JSON
 
 ```bash
-y2j toYaml config.yaml --output config.json
+y2j to-yaml config.yaml --output config.json
 ```
 
 This command will convert the `config.yaml` file to JSON and save it as `config.json`.
@@ -58,7 +58,7 @@ This command will convert the `config.yaml` file to JSON and save it as `config.
 ### Example 3: Convert JSON to YAML (Print to Console)
 
 ```bash
-y2j toJson input.json
+y2j to-json input.json
 ```
 
 This command will convert the `input.json` file to YAML and print the result to the console without saving it to a file.
