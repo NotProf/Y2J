@@ -1,13 +1,20 @@
 {
-  "name": "y2j",
-  "version": "0.0.1",
+  "name": "y2j-cli",
+  "version": "0.0.3",
   "description": "CLI for converting json to yaml and yaml to json",
-  "type": "module",
-  "main": "src/index.ts",
+  "type": "commonjs",
+  "main": "./src/index.ts",
+  "bin": {
+    "y2j": "bin/y2j.js"
+  },
   "scripts": {
     "cli": "ts-node src/index.ts",
     "prettier": "npx prettier --write \"**/*.{ts,js,json}\"",
     "prettier:check": "npx prettier --check \"**/*.{ts,js,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NotProf/Y2J.git"
   },
   "keywords": [
     "json",

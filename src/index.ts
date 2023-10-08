@@ -2,12 +2,14 @@ import { Command } from 'commander';
 import { toJson } from './commands/to-json.js';
 import { commandWrapper } from './utils/command-wrapper.js';
 import { toYaml } from './commands/to-yaml.js';
+const { version } = require("../package.json");
+
 const program = new Command();
 
 program
   .name('Y2J')
-  .version('0.0.1')
-  .description('CLI for converting json to yaml and yaml to json');
+  .version(version)
+  .description('CLI for converting json to yaml and yaml to json')
 
 program
   .command('to-json')

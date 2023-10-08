@@ -1,5 +1,5 @@
-import { toJson } from '../commands/to-json.js';
-import { toYaml } from '../commands/to-yaml.js';
+import { toJson } from '../commands/to-json';
+import { toYaml } from '../commands/to-yaml';
 
 export type TCommands = typeof toJson | typeof toYaml;
 

@@ -1,5 +1,5 @@
 import { green, red } from 'colorette';
-import { BaseOptions, TCommands } from '../types/commands.js';
+import { BaseOptions, TCommands } from '../types/commands';
 
 export function handleErrors(error: Error) {
   process.stderr.write(red(error.message) + '\n\n');

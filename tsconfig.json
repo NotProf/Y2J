@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
     "target": "es2016",
-    "module": "ESNext",
+    "module": "CommonJS",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "allowImportingTsExtensions": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "nodenext",
-    /* Type Checking */
     "strict": true,
     "skipLibCheck": true
   },

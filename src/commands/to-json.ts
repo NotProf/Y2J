@@ -1,7 +1,7 @@
 import yaml from 'yaml';
 import fs from 'fs';
-import { BaseOptions } from '../types/commands.ts';
-import { checkFileExtension } from '../utils/utils.js';
+import { BaseOptions } from '../types/commands';
+import { checkFileExtension } from '../utils/utils';
 
 export function toJson(input: string, options: BaseOptions) {
   checkFileExtension(input, ['yaml', 'yml']);

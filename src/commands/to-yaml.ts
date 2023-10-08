@@ -1,5 +1,5 @@
-import { BaseOptions } from '../types/commands.js';
-import { checkFileExtension } from '../utils/utils.js';
+import { BaseOptions } from '../types/commands';
+import { checkFileExtension } from '../utils/utils';
 import yaml from 'yaml';
 import fs from 'fs';
 

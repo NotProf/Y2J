@@ -10,7 +10,7 @@ This tool provides two main commands: toJson and toYaml, each with the option to
 You can install the Y2J globally using npm:
 
 ```bash
-npm install -g y2j
+npm install -g y2j-cli
 ```
 
 ## Usage
